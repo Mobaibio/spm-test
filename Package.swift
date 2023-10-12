@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "MobaiBiometric",
-            targets: ["MobaiBiometric"]),
+            targets: ["MobaiBiometric", "MobaiBiometricXCFramework"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.0.0"),
